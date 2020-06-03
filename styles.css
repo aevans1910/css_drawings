@@ -1,0 +1,94 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    margin: 20px;
+}
+
+.container > div {
+    margin: 20px;
+}
+
+.square {
+    background-color: red;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.square2 {
+    background-color: red;
+    border: solid black 4px;
+}
+
+.square-ish {
+    background-color: red;
+    border: solid black 4px;
+    border-radius: 0px 0px 0px 27px;
+}
+
+.leaf {
+    background-color: greenyellow;
+    border: solid black 4px;
+    border-radius: 0% 50% 50% 50%;
+}
+
+.lemon {
+    background-color: yellow;
+    border: solid black 4px;
+    border-radius: 0% 50% 0% 50%;
+}
+
+.square_rect {
+    border: solid black 4px;
+    position: relative;
+}
+
+.square_rect > div {
+    width: 30px;
+    height: 10px;
+    background-color: black;
+    transform: translate(11px, 12px);
+}
+
+.flag {
+    background-color: darkblue;
+    border: solid black 4px;
+}
+
+.flag > :first-child {
+    width: 30px;
+    height: 10px;
+    background-color: yellow;
+    transform: translate(11px, 12px);
+}
+
+.flag > :last-child {
+    width: 30px;
+    height: 10px;
+    background-color: yellow;
+    transform: translate(11px, 20px);
+}
+
+.redcross {
+    background-color: red;
+    border: solid black 4px;
+}
+
+.redcross > :first-child {
+    width: 30px;
+    height: 10px;
+    background-color: white;
+    transform: translate(11px, 20px);
+}
+
+.redcross > :last-child {
+    width: 30px;
+    height: 10px;
+    background-color: white;
+    transform: translate(11px, 10px) rotate(90deg);
+}
