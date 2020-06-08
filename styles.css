@@ -248,5 +248,120 @@
     transform: translate(34px, -6px);
 }
 
+.bird {
+    border: solid black 4px;
+    background-color: #a1d0ed;
+}
 
+.bird > :first-child {
+    height: 15px;
+    width: 15px;
+    border-radius: 50% 0% 50% 50%;
+    background-color: #354f5e;
+    transform: translate(27px, 4px) rotate(45deg);
+}
+
+.bird > :first-child > div {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: white;
+    transform: translate(5px, 5px);
+}
+
+.bird > :nth-child(2) {
+    height: 33px;
+    width: 33px;
+    border-radius: 50% 50% 50% 0%;
+    background-color: #354f5e;
+    transform: translate(7px, 0px) rotate(3deg);
+}
+
+.bird > :last-child {
+    height: 20px;
+    width: 20px;
+    border-radius: 50% 50% 50% 0%;
+    border-right: solid black 1px;
+    background-color: #426275;
+    transform: translate(13px, -25px);
+}
+
+.kirby {
+    border: solid black 4px;
+    background-color: #bee5e8;
+}
+
+.kirby > :first-child {
+    height: 13px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #f55353;
+    transform: translate(10px, 35px);
+}
+
+.kirby > .body {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #eb9898;
+    transform: translate(8px, -10px);
+}
+
+.kirby > .body > :first-child {
+    height: 7px;
+    width: 4px;
+    border-radius: 40%;
+    background-color: black;
+    transform: translate(12px, 4px);
+}
+
+.kirby > .body > :nth-child(2) {
+    height: 7px;
+    width: 4px;
+    border-radius: 40%;
+    background-color: black;
+    transform: translate(23px, -3px);
+}
+
+.kirby > .body > :nth-child(3) {
+    height: 15px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #a64141;
+    transform: translate(11px, -3px);
+}
+
+.kirby > .body > :nth-child(3) > div {
+    height: 8px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #d46e6e;
+    transform: translate(8px, 6px);
+}
+
+.kirby > .body > :nth-child(4) {
+    height: 10px;
+    width: 5px;
+    border-radius: 50%;
+    border-left: solid black 2px;
+    border-top: solid black 1px;
+    transform: translate(-2px, -15px);
+}
+
+.kirby > .body > :nth-child(5) {
+    height: 10px;
+    width: 5px;
+    border-radius: 50%;
+    border-left: solid black 2px;
+    border-top: solid black 1px;
+    transform: translate(30px, -27px);
+}
+
+.kirby > :last-child {
+    height: 13px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #f55353;
+    transform: translate(30px, -17px);
+}
 
